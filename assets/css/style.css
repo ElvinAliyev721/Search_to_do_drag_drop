@@ -1,0 +1,22 @@
+.area{
+    padding: 10px;
+}
+.area_start{
+    background-color: rgb(8, 158, 128);
+}
+.area_stop{
+    background-color: rgb(114, 107, 192);
+}
+.list_row{
+    margin-top:20px;
+}
+.dragging{
+    opacity: 0.5;
+    background-color: rgb(232, 219, 244);
+}
+.removed_item{
+   display: none;
+}
+.draggable{
+    padding: 10px;
+}

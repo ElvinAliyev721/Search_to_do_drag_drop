@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tasks</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-light bg-light">
+                <form class="d-flex form-inline">
+                  <input id="search_user_tasks" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button> -->
+                </form>
+              </nav>
+        </div>
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Task</span>
+                </div>
+                <input id="task_input_user" type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            <button id="add_task" type="button" class="btn btn-primary btn-lg btn-block">Add Tasks</button>
+        </div>
+        <div class="row list_row">
+            <div class="col col-6">
+                <ul class="area area_start">Pending</ul>
+            </div>
+            <div class="col col-6">
+                <ul class="area area_stop">Completed</ul>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
